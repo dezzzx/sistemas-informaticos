@@ -1,0 +1,45 @@
+EJERCICIO 1:
+$ git config --global --list
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+user.name=[Angel Menendez]
+user.email=[angelplanet440@gmail.com]
+difftool.sourcetree.cmd=''
+mergetool.sourcetree.cmd=''
+mergetool.sourcetree.trustexitcode=true
+core.editor="C:\Users\tfire\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+color.ui=auto
+
+EJERCICIO 2:
+$ cd git
+$ mkdir libro
+$ cd libro
+
+EJERCICIO 3:
+
+$ echo "Capitulo 1: Introduccion a Git" > indice.txt
+
+$ echo "Capitulo 2: Flujo de trabajo basico" >> indice.txt
+
+$ echo "Capitulo 3: Gestion de ramas" >> indice.txt
+
+$git log
+$git add indice.txt
+$git log
+EJERCICIO 4:
+$ git commit -m "Añadido índice del libro."
+$ git log
+EJERCICIO 5: 
+
+$ echo "Capitulo 4: Repositorios remotos" >> indice.txt
+$ git log
+$ git commit -m "Añadido capitulo 3 sobre gestion de ramas al indice."
+EJERCICIO 6: 
+$ git log
+$ git commit -m "Añadido capitulo 3 sobre la gestion de ramas al indice" 
+$git log
+
+
+
